@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1, "fecha": "2026-01-02", "activo": true,
+    "titulo": "Liquidación de Verano", "icono": "☀️",
+    "descripcion": "Grandes descuentos en ropa y accesorios de temporada.",
+    "detalle": "Inicia el año con las mejores ofertas. Aprovecha descuentos en ropa de verano, artículos de playa, calzado y accesorios. Una oportunidad única para renovar tu estilo con los mejores precios del año.",
+    "promocion": "Hasta 40% OFF en toda la tienda"
+  },
+  {
+    "id": 2, "fecha": "2026-02-14", "activo": true,
+    "titulo": "San Valentín", "icono": "❤️",
+    "descripcion": "Celebra el amor con regalos especiales para tu pareja.",
+    "detalle": "San Valentín es la fecha perfecta para sorprender a esa persona especial. Encuentra joyería, perfumes, chocolates y regalos únicos con descuentos exclusivos para celebrar el amor.",
+    "promocion": "2x1 en productos seleccionados"
+  },
+  {
+    "id": 3, "fecha": "2026-03-02", "activo": true,
+    "titulo": "Regreso a Clases", "icono": "📚",
+    "descripcion": "Todo lo que necesitas para el año escolar con los mejores precios.",
+    "detalle": "Prepárate para el nuevo año escolar con útiles, mochilas, ropa escolar y tecnología. Encuentra todo lo que necesitas para el éxito académico con precios inmejorables.",
+    "promocion": "30% OFF en útiles escolares y tecnología"
+  },
+  {
+    "id": 4, "fecha": "2026-05-10", "activo": true,
+    "titulo": "Día de la Madre", "icono": "🌹",
+    "descripcion": "Sorprende a mamá con los mejores regalos del año.",
+    "detalle": "El Día de la Madre merece algo especial. Encuentra joyería, perfumes, cosméticos, artículos del hogar y mucho más. Demuéstrale a mamá cuánto la quieres con un regalo único.",
+    "promocion": "Envío gratis en pedidos sobre $25.000"
+  },
+  {
+    "id": 5, "fecha": "2026-06-01", "activo": true,
+    "titulo": "CyberDay", "icono": "💻",
+    "descripcion": "El evento de compras online más grande del año con miles de ofertas.",
+    "detalle": "CyberDay es el mayor evento de comercio electrónico del país. Durante 3 días encontrarás precios únicos en tecnología, moda, hogar, viajes y mucho más. ¡No te lo pierdas!",
+    "promocion": "Hasta 50% OFF + 12 cuotas sin interés"
+  },
+  {
+    "id": 6, "fecha": "2026-06-21", "activo": true,
+    "titulo": "Día del Padre", "icono": "👔",
+    "descripcion": "Regala algo especial al hombre más importante de tu vida.",
+    "detalle": "El Día del Padre es la ocasión perfecta para agradecer a papá todo su amor. Encuentra electrónica, herramientas, ropa, calzado y accesorios con descuentos especiales.",
+    "promocion": "20% OFF en categorías seleccionadas"
+  },
+  {
+    "id": 7, "fecha": "2026-07-01", "activo": true,
+    "titulo": "Vacaciones de Invierno", "icono": "❄️",
+    "descripcion": "Descuentos especiales para disfrutar las vacaciones de invierno.",
+    "detalle": "Las vacaciones de invierno son el momento perfecto para equiparte con ropa abrigada, artículos de ski, juegos y entretenimiento. Disfruta las mejores ofertas de la temporada fría.",
+    "promocion": "Hasta 35% OFF en moda de invierno"
+  },
+  {
+    "id": 8, "fecha": "2026-08-09", "activo": true,
+    "titulo": "Día del Niño", "icono": "🎁",
+    "descripcion": "Sorprende a los más pequeños con los mejores juguetes y regalos.",
+    "detalle": "El Día del Niño es una celebración especial para los más pequeños del hogar. Encuentra juguetes, videojuegos, ropa infantil y mucho más con precios increíbles que harán feliz a toda la familia.",
+    "promocion": "3x2 en juguetes seleccionados"
+  },
+  {
+    "id": 9, "fecha": "2026-08-31", "activo": true,
+    "titulo": "Cumpleaños de Joel", "icono": "🎂",
+    "descripcion": "Celebración especial de nuestro colaborador Joel con cupón para clientes.",
+    "detalle": "Celebración especial de Joel, colaborador de la empresa. Mostrar banner especial y cupón de descuento para clientes.",
+    "promocion": "Cupón JOEL10 — 10% OFF en toda la tienda"
+  },
+  {
+    "id": 10, "fecha": "2026-09-18", "activo": true,
+    "titulo": "Fiestas Patrias", "icono": "🇨🇱",
+    "descripcion": "Celebra las fiestas nacionales con ofertas especiales en todo el país.",
+    "detalle": "Las Fiestas Patrias son la celebración más importante de Chile. Encuentra todo para tu celebración: comida, bebidas, decoración, ropa típica y artículos del hogar con descuentos especiales.",
+    "promocion": "18% de descuento en productos seleccionados"
+  },
+  {
+    "id": 11, "fecha": "2026-10-05", "activo": true,
+    "titulo": "CyberMonday", "icono": "🚀",
+    "descripcion": "Lunes de descuentos masivos en tecnología y más categorías.",
+    "detalle": "CyberMonday reúne las mejores ofertas en tecnología, electrodomésticos, moda y más. Un evento exclusivo de compras online donde las marcas más importantes ofrecen sus mejores precios.",
+    "promocion": "Hasta 60% OFF en tecnología"
+  },
+  {
+    "id": 12, "fecha": "2026-10-31", "activo": true,
+    "titulo": "Halloween", "icono": "🎃",
+    "descripcion": "Disfraces, decoración y ofertas espeluznantes para Halloween.",
+    "detalle": "¡Prepárate para la noche más aterradora del año! Encuentra disfraces, decoración, dulces y todo lo que necesitas para celebrar Halloween con tus amigos y familia.",
+    "promocion": "Descuentos de terror: hasta 31% OFF"
+  },
+  {
+    "id": 13, "fecha": "2026-11-27", "activo": true,
+    "titulo": "Black Friday", "icono": "🔥",
+    "descripcion": "El evento de descuentos más esperado del año con ofertas únicas.",
+    "detalle": "Black Friday es EL evento de compras del año. Descuentos masivos en todas las categorías: tecnología, moda, hogar, viajes, electrodomésticos y mucho más. Las mejores ofertas disponibles por tiempo limitado.",
+    "promocion": "Hasta 70% OFF en todas las categorías"
+  },
+  {
+    "id": 14, "fecha": "2026-12-01", "activo": true,
+    "titulo": "Temporada Navideña", "icono": "🎄",
+    "descripcion": "Regalos y decoraciones navideñas con precios especiales para toda la familia.",
+    "detalle": "La Temporada Navideña es el momento más mágico del año. Encuentra regalos para toda la familia, decoración navideña, juguetes y mucho más. Prepárate para regalar felicidad estas fiestas.",
+    "promocion": "Envío gratis + hasta 30% OFF en regalos"
+  },
+  {
+    "id": 15, "fecha": "2026-12-26", "activo": true,
+    "titulo": "Liquidación Fin de Año", "icono": "🎉",
+    "descripcion": "Cierra el año con los mejores descuentos de la temporada.",
+    "detalle": "La Liquidación de Fin de Año es tu última oportunidad para aprovechar las grandes rebajas del año. Renueva tu hogar, tu guardarropa y prepárate para el 2027 con los mejores productos a los mejores precios.",
+    "promocion": "Hasta 50% OFF + cuotas sin interés"
+  }
+]

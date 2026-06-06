@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calendario comercial 2026 ZTEL-Spa — Timeline interactivo de eventos y fechas clave para ecommerce con promociones y descuentos especiales.">
+  <meta name="keywords" content="calendario comercial 2026, black friday, cyberday, navidad, eventos ecommerce, ZTEL">
+  <meta name="author" content="ZTEL-Spa">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Calendario Comercial 2026 ZTEL-Spa | Timeline Interactivo">
+  <meta property="og:description" content="Todos los eventos comerciales del año en un timeline interactivo. Descuentos, promociones y fechas clave para ecommerce.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f172a">
+  <title>Calendario Comercial 2026 ZTEL-Spa</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+  <!-- ===== HEADER FIJO ===== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+
+      <div class="header-brand">
+        <span class="brand-icon" aria-hidden="true">📅</span>
+        <div class="brand-text">
+          <h1 class="brand-title">Calendario Comercial 2026 <span class="brand-company">ZTEL-Spa</span></h1>
+          <p class="brand-sub">Tu guía de eventos del año</p>
+        </div>
+      </div>
+
+      <div class="header-event-info">
+        <div class="next-label">Próximo Evento</div>
+        <div class="next-name" id="header-next-name">Cargando...</div>
+        <div class="header-countdown" id="header-countdown" aria-live="polite">
+          <div class="cd-block">
+            <span class="cd-num" id="cd-days">--</span>
+            <span class="cd-unit">días</span>
+          </div>
+          <span class="cd-sep">:</span>
+          <div class="cd-block">
+            <span class="cd-num" id="cd-hours">--</span>
+            <span class="cd-unit">hrs</span>
+          </div>
+          <span class="cd-sep">:</span>
+          <div class="cd-block">
+            <span class="cd-num" id="cd-mins">--</span>
+            <span class="cd-unit">min</span>
+          </div>
+          <span class="cd-sep">:</span>
+          <div class="cd-block">
+            <span class="cd-num" id="cd-secs">--</span>
+            <span class="cd-unit">seg</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ===== NAVEGACIÓN LATERAL ===== -->
+  <nav class="side-nav" id="side-nav" aria-label="Navegación por mes">
+    <button class="side-nav-toggle" id="nav-toggle" aria-label="Abrir navegación mensual" aria-expanded="false">
+      <span class="toggle-icon">☰</span>
+      <span class="toggle-label">Meses</span>
+    </button>
+    <div class="side-nav-panel" id="side-nav-panel">
+      <div class="panel-title">Ir al mes</div>
+      <ul class="month-list" id="month-list" role="list"></ul>
+    </div>
+  </nav>
+
+  <!-- ===== TIMELINE ===== -->
+  <main class="main-content" id="main">
+    <div class="timeline-wrap" id="timeline-wrap">
+      <div class="timeline-spine" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <!-- ===== MODAL DETALLE ===== -->
+  <div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-box" id="modal-box" tabindex="-1">
+      <button class="modal-close" id="modal-close" aria-label="Cerrar detalle">✕</button>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <script src="app.js?v=2"></script>
+</body>
+</html>
